@@ -16,4 +16,9 @@
 * git mv=> old_name to new_name for renaming the files
 * git hard --reset=>
 
-*  when we push to remote repository we get a error we use `git pull` we enter the github url code it's shows the url https://github.com/venu0245/Git to https://github.com/venu0245/Git.git
+*  when we push to remote repository we get a error we use `git pull` we enter the name of the repository code url it's shows the url https://github.com/venu0245/Git either we can enter the git pull https://github.com/venu0245/Git.git
+
+* git log:take latest commit id 
+
+* git cat-file -p -s -t <commit_id>
+
