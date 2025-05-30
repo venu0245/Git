@@ -22,14 +22,21 @@
 
 * git cat-file -p -s -t <commit_id>
 
-#### Git tag
+#### Git tag:
 * Git tag is nothing but label for branches
 * git tag rel_1.0
 * git tag
 * git tags are stored in `.git folder=> ref=>tags`
-#### Git stash
+#### Git stash:
 * Git stash:when changes are applied in a file we use 
 *`git stash`
 * changes will be gone and if get changes back again  we use  add and commit the changes into file
 * `git stash list`
 * `git stash apply`
+#### Git cherry-pick:
+* ```
+  git status
+  git log
+  git cherry-pick aaccd51a6751dd92d2455eee31ff9e49d515a44d
+  ```
+#### Git rebase
