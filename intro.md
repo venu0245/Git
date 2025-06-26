@@ -18,10 +18,25 @@
 
 *  when we push the file local repository to remote repository we get a error we use `git pull` we enter the name of the repository code url it's shows the url https://github.com/venu0245/Git.git either we can enter the git pull https://github.com/venu0245/Git.git
 
+#### Git branch:
+* create a branch 
+ ```
+ git checkout -b app
+ git checkout -b web
+ git checkout -b int
+ ```
 * git log:take latest commit id 
+* Refer here [https://git-scm.com/docs/git-cat-file]
 
 * git cat-file -p -s -t <commit_id>
-
+#### Git merge
+* when delivery fix to app branch and when web delivery happens
+* have two branches app and web i have merge to app i am in web branch and go to app and merge it
+ ```
+ app
+ web
+ git merge app 
+ ``` 
 #### Git tag:
 * Git tag is nothing but label for branches
 * git tag rel_1.0
